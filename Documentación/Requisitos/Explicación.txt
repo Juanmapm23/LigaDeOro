@@ -1,0 +1,10 @@
+Se pide un programa escrito en Java que sirva para gestionar una liga de fútbol.
+La liga consta de 6 equipos, formados por 10 jugadores máximo.
+La aplicación debe de poder añadir y eliminar equipos y jugadores a placer.
+Debe de tener dos modos, uno de simulación, donde se simularan los partidos de cada jornada y otro personalizado donde se podrá ir actualizando los resultados de cada encuentro.
+Debe de mostrar una tabla con la clasificación de cada equipo con sus puntos, partidos jugados, ganados y perdidos, goles a favor, en contra y general.
+Debe de mostrar una tabla donde de los mayores goleadores de la liga, otra de los mayores asistentes y otra de los mayores contribuidores. 
+Se podrá acceder a un menú de estadísticas donde se muestre las estadísticas de cada equipo y de cada jugador.
+La primera parte de la liga consiste en enfrentamientos ida y vuelta entre todos los equipos. Los 4 mejores equipos pasarán a la siguiente ronda.
+En el play off se enfrentarán al 1º con el 4º y al 2º con el 3º. Los ganadores jugarán la final.
+Se debe de guardar el progreso al generar los equipos y jugadores, habiendo un botón de guardar y otro de eliminar. Eliminar a un equipo, eliminará a sus jugadores.
