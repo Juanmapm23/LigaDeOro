@@ -2,6 +2,7 @@ import java.util.List;
 
 public class Equipo {
     private String nombre;
+    int id;
     private int puntos;
     private int puesto;
     private List<Jugador> jugadores;
@@ -10,15 +11,16 @@ public class Equipo {
     private int golaberal;
     private String escudo;
 
-    public Equipo(String nombre,String escudo){
+    public Equipo(String nombre,String escudo,int id){
         this.nombre = nombre;
+        this.id = id;
         //puesto;
         this.puntos = 0;
         this.jugadores = null;
         this.golesEnContra = 0;
         this.golesAFavor = 0;
         this.golaberal = 0;
-        this.escudo = null;
+        this.escudo = escudo;
     }
 
     public String getNombre() {
@@ -27,6 +29,14 @@ public class Equipo {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getPuntos() {
@@ -84,4 +94,6 @@ public class Equipo {
     public void setEscudo(String escudo) {
         this.escudo = escudo;
     }
+
+
 }
